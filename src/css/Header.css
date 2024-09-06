@@ -14,7 +14,7 @@
       padding: 1rem;
       font-weight: 600;
 
-      &:hover {
+      &:hover:not(.navbar__link--title) {
         background-color: #fde38c;
         color: rgb(27, 27, 27);
       }
